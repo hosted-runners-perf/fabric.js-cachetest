@@ -1,4 +1,4 @@
-name: '🩺 No Cache'
+name: '🩺 Cache'
 
 on:
   workflow_dispatch:
