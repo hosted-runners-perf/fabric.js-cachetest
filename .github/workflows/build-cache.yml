@@ -20,7 +20,7 @@ jobs:
   prettier:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Prettier check
         uses: actions/setup-node@v3
         with:
@@ -31,7 +31,7 @@ jobs:
   coverage:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Code Coverage Report Updater
         uses: actions/setup-node@v3
         with:
